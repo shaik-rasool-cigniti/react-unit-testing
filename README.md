@@ -10,11 +10,7 @@ We will do Unit Testing on React Components and the Redux State within these 2 S
 
 
 *Notes:*
-- Unit Tests on Redux:
 
-    - Most Redux code are functions anyway, so you don't need to mock anything.
-    - Test your Action Creators, Reducers, and the resulting application state by passing test values/no values/wrong values into/through them.
-    - Docs: https://redux.js.org/recipes/writing-tests
     
 - Unit Tests on React Components:
     - Should focus on bullet-proof answers of these questions:
@@ -41,6 +37,12 @@ We will do Unit Testing on React Components and the Redux State within these 2 S
 
     - This is already an Integration Test, but:
     - We will cover it shortly below: [Integration Tests between React Component and the Redux State](#chapter3) :-)
+
+- Unit Tests on Redux:
+
+    - Most Redux code are functions anyway, so you don't need to mock anything.
+    - Test your Action Creators, Reducers, and the resulting application state by passing test values/no values/wrong values into/through them.
+    - Docs: https://redux.js.org/recipes/writing-tests
 
 ### IMPORTANT CAUTION: 
 The npm packages might have discovered vulnerabilities by now. 
